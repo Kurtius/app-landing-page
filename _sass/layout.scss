@@ -2,22 +2,21 @@
 	height: 714px;
 	background: 
 		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
-		rgba($image-overlay-color, $image-overlay-transparency)
+		rgba(#163066, 0.2), 
+		rgba(#1A2551, 1)
 		   ),
 		
-		url($header-image);
+		url(/assets/bg.jpg);
 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top;
-	border-radius: 0px 0px 40px 40px;
+	background-position: center;
+	background-attachment: fixed;
 
 }
 
 .headerBackground {
 	height: 115px;
-	background-color: rgba($header-color, $header-transparency);
 }
 
 @media only screen and (max-width: 768px) {
